@@ -70,7 +70,7 @@ namespace HuffmanCoding
             return pQueue;
         }
 
-        public static Node? GenerateHuffmanTree(PriorityQueue<Node, double> pQueue) //remove ?
+        public static Node? GenerateHuffmanTree(PriorityQueue<Node, double> pQueue) //remove?
         {
 
             while(pQueue.Count != 1) //what value to asign connecting nodes
